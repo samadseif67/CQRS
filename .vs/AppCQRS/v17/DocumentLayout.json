@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\project\\AppCQRS\\AppCQRS\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF4BD67-3A39-4CD6-9919-1D1BA00D1C5D}|App.Context\\App.Context.csproj|e:\\project\\appcqrs\\appcqrs\\app.context\\validations\\categoryentitytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACF4BD67-3A39-4CD6-9919-1D1BA00D1C5D}|App.Context\\App.Context.csproj|solutionrelative:app.context\\validations\\categoryentitytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF4BD67-3A39-4CD6-9919-1D1BA00D1C5D}|App.Context\\App.Context.csproj|e:\\project\\appcqrs\\appcqrs\\app.context\\appcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACF4BD67-3A39-4CD6-9919-1D1BA00D1C5D}|App.Context\\App.Context.csproj|solutionrelative:app.context\\appcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoryEntityTypeConfiguration.cs",
+              "DocumentMoniker": "E:\\project\\AppCQRS\\AppCQRS\\App.Context\\Validations\\CategoryEntityTypeConfiguration.cs",
+              "RelativeDocumentMoniker": "App.Context\\Validations\\CategoryEntityTypeConfiguration.cs",
+              "ToolTip": "E:\\project\\AppCQRS\\AppCQRS\\App.Context\\Validations\\CategoryEntityTypeConfiguration.cs",
+              "RelativeToolTip": "App.Context\\Validations\\CategoryEntityTypeConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T08:11:39.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppContext.cs",
+              "DocumentMoniker": "E:\\project\\AppCQRS\\AppCQRS\\App.Context\\AppContext.cs",
+              "RelativeDocumentMoniker": "App.Context\\AppContext.cs",
+              "ToolTip": "E:\\project\\AppCQRS\\AppCQRS\\App.Context\\AppContext.cs",
+              "RelativeToolTip": "App.Context\\AppContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T07:48:56.033Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,4 +1,5 @@
-﻿using Entites;
+﻿using App.Context.Validations;
+using Entites;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Migrations.Operations;
 using System;
@@ -15,6 +16,15 @@ namespace App.Context
         {
                 
         }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(CategoryEntityTypeConfiguration).Assembly);
+            base.OnModelCreating(modelBuilder);
+        }
+
+
+
         public DbSet<Category> Categories { get; set; }
     }
 }

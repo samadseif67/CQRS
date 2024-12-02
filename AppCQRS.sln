@@ -15,7 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entites", "Entites\Entites.csproj", "{BCC3EA18-5221-48B0-9384-24436855602A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Context", "App.Context\App.Context.csproj", "{ACF4BD67-3A39-4CD6-9919-1D1BA00D1C5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.Context", "App.Context\App.Context.csproj", "{ACF4BD67-3A39-4CD6-9919-1D1BA00D1C5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
