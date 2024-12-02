@@ -1,0 +1,12 @@
+E:\project\AppCQRS\AppCQRS\Entites\bin\Debug\net6.0\Entites.deps.json
+E:\project\AppCQRS\AppCQRS\Entites\bin\Debug\net6.0\Entites.dll
+E:\project\AppCQRS\AppCQRS\Entites\bin\Debug\net6.0\Entites.pdb
+E:\project\AppCQRS\AppCQRS\Entites\obj\Debug\net6.0\Entites.GeneratedMSBuildEditorConfig.editorconfig
+E:\project\AppCQRS\AppCQRS\Entites\obj\Debug\net6.0\Entites.AssemblyInfoInputs.cache
+E:\project\AppCQRS\AppCQRS\Entites\obj\Debug\net6.0\Entites.AssemblyInfo.cs
+E:\project\AppCQRS\AppCQRS\Entites\obj\Debug\net6.0\Entites.csproj.CoreCompileInputs.cache
+E:\project\AppCQRS\AppCQRS\Entites\obj\Debug\net6.0\Entites.sourcelink.json
+E:\project\AppCQRS\AppCQRS\Entites\obj\Debug\net6.0\Entites.dll
+E:\project\AppCQRS\AppCQRS\Entites\obj\Debug\net6.0\refint\Entites.dll
+E:\project\AppCQRS\AppCQRS\Entites\obj\Debug\net6.0\Entites.pdb
+E:\project\AppCQRS\AppCQRS\Entites\obj\Debug\net6.0\ref\Entites.dll
