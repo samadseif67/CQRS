@@ -1,5 +1,5 @@
 ﻿using App.Context.Validations;
-using Entites;
+using Entites.Entites;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Migrations.Operations;
 using System;

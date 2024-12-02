@@ -1,16 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "LHTBpgXC1slGxtwX1fX+9/kqLRAfUxqp5szpgq5GmQB8gw+8ktCA6ub5tCFsuEEdoURIguZP9mj4jj7IqcrHdw==",
+  "dgSpecHash": "cEsbg0w13XZYd0SrDo0EjD+63PmDAq9ywjtbfNS3HKhXTSNvucUEdGpj87dCmUB6FhXzWs41ii/yxuY7QbRNFg==",
   "success": true,
   "projectFilePath": "E:\\project\\AppCQRS\\AppCQRS\\App.Context\\App.Context.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\seyf\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\seyf\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.0\\microsoft.entityframeworkcore.6.0.0.nupkg.sha512",
     "C:\\Users\\seyf\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.0\\microsoft.entityframeworkcore.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\seyf\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.0\\microsoft.entityframeworkcore.analyzers.6.0.0.nupkg.sha512",
-    "C:\\Users\\seyf\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.0\\microsoft.entityframeworkcore.design.6.0.0.nupkg.sha512",
     "C:\\Users\\seyf\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.0\\microsoft.entityframeworkcore.relational.6.0.0.nupkg.sha512",
-    "C:\\Users\\seyf\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.0\\microsoft.entityframeworkcore.tools.6.0.0.nupkg.sha512",
     "C:\\Users\\seyf\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\seyf\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.0\\microsoft.extensions.caching.memory.6.0.0.nupkg.sha512",
     "C:\\Users\\seyf\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",

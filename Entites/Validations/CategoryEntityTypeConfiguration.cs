@@ -1,4 +1,4 @@
-﻿using Entites;
+﻿using Entites.Entites;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
@@ -14,8 +14,7 @@ namespace App.Context.Validations
         public void Configure(EntityTypeBuilder<Category> builder)
         {
             builder.HasKey(x => x.ID);
-            builder.Property(x => x.Name).IsRequired();
-
+            builder.Property(x => x.Name).IsRequired().HasMaxLength(50);
         }
     }
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entites
+namespace Entites.Entites
 {
     public class Category : BaseEntites
     {
