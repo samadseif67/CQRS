@@ -1,4 +1,4 @@
-﻿using App.Context.Validations;
+﻿using App.Context.FluntApi;
 using Entites.Entites;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Migrations.Operations;
