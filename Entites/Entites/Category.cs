@@ -8,6 +8,6 @@ namespace Entites.Entites
 {
     public class Category : BaseEntites
     {
-        public string Name { get; set; }
+        public string? Name { get; set; }
     }
 }

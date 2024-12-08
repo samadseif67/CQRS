@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "S/pRzBn6XxWYRL+lV5LJBYsVu7INuldsbIfpefLeXEtjULQLLTT0tw3XsBN8XcQoj8Vn211KDnRUfOQTUOtpHg==",
+  "dgSpecHash": "LRnrWnLoVh1N4C4C8Tx/cEWAvwwo3Eo2iw8oWkdfby77a/TccRwYcUQB0AI2ZN7OHoEzc8nNXx7EIwln06T8Mg==",
   "success": true,
   "projectFilePath": "E:\\project\\AppCQRS\\AppCQRS\\Entites\\Entites.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\seyf\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
+    "C:\\Users\\seyf\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\seyf\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.11.0\\fluentvalidation.dependencyinjectionextensions.11.11.0.nupkg.sha512",
     "C:\\Users\\seyf\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\seyf\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.0\\microsoft.entityframeworkcore.6.0.0.nupkg.sha512",
     "C:\\Users\\seyf\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.0\\microsoft.entityframeworkcore.abstractions.6.0.0.nupkg.sha512",
