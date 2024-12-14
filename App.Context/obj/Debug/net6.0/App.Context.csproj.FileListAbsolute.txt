@@ -1,5 +1,4 @@
 E:\project\AppCQRS\AppCQRS\App.Context\bin\Debug\net6.0\App.Context.deps.json
-E:\project\AppCQRS\AppCQRS\App.Context\bin\Debug\net6.0\App.Context.runtimeconfig.json
 E:\project\AppCQRS\AppCQRS\App.Context\bin\Debug\net6.0\App.Context.dll
 E:\project\AppCQRS\AppCQRS\App.Context\bin\Debug\net6.0\App.Context.pdb
 E:\project\AppCQRS\AppCQRS\App.Context\obj\Debug\net6.0\App.Context.csproj.AssemblyReference.cache
@@ -7,11 +6,9 @@ E:\project\AppCQRS\AppCQRS\App.Context\obj\Debug\net6.0\App.Context.GeneratedMSB
 E:\project\AppCQRS\AppCQRS\App.Context\obj\Debug\net6.0\App.Context.AssemblyInfoInputs.cache
 E:\project\AppCQRS\AppCQRS\App.Context\obj\Debug\net6.0\App.Context.AssemblyInfo.cs
 E:\project\AppCQRS\AppCQRS\App.Context\obj\Debug\net6.0\App.Context.csproj.CoreCompileInputs.cache
-E:\project\AppCQRS\AppCQRS\App.Context\obj\Debug\net6.0\App.Context.sourcelink.json
 E:\project\AppCQRS\AppCQRS\App.Context\obj\Debug\net6.0\App.Context.dll
 E:\project\AppCQRS\AppCQRS\App.Context\obj\Debug\net6.0\refint\App.Context.dll
 E:\project\AppCQRS\AppCQRS\App.Context\obj\Debug\net6.0\App.Context.pdb
-E:\project\AppCQRS\AppCQRS\App.Context\obj\Debug\net6.0\App.Context.genruntimeconfig.cache
 E:\project\AppCQRS\AppCQRS\App.Context\obj\Debug\net6.0\ref\App.Context.dll
 E:\project\AppCQRS\AppCQRS\App.Context\bin\Debug\net6.0\Entites.dll
 E:\project\AppCQRS\AppCQRS\App.Context\bin\Debug\net6.0\Entites.pdb

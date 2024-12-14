@@ -1,9 +1,9 @@
-﻿using App.Web.StructureCqrs.Request;
+﻿using App.Web.StructureCqrs.Request.Command;
 using Entites.Entites;
 using Entites.Repository;
 using MediatR;
 
-namespace App.Web.StructureCqrs.Handl
+namespace App.Web.StructureCqrs.Handl.Command
 {
     public class SaveCategoryHandel : IRequestHandler<SaveCategoryRequest, uint>
     {
@@ -17,8 +17,20 @@ namespace App.Web.StructureCqrs.Handl
         public async Task<uint> Handle(SaveCategoryRequest request, CancellationToken cancellationToken)
         {
             Category category = new Category();
-            await categoryRepository.AddAsync(category);
-            await categoryRepository.SaveChangeAsync();
+            category.ID= request.CategoryDto.ID;
+            category.Name= request.CategoryDto.Name;
+
+            if(category.ID==0)
+            {
+                await categoryRepository.AddAsync(category);
+                await categoryRepository.SaveChangeAsync();
+            }
+            else
+            {
+                categoryRepository.Update(category);
+                categoryRepository.SaveChange();
+            }
+            
             return 1;
         }
     }
