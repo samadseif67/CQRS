@@ -1,11 +1,12 @@
 ﻿using App.Web.StructureCqrs.Request.Command;
 using Entites.Entites;
 using Entites.Repository;
+using Entites.ViewModel;
 using MediatR;
 
 namespace App.Web.StructureCqrs.Handl.Command
 {
-    public class SaveCategoryHandel : IRequestHandler<SaveCategoryRequest, uint>
+    public class SaveCategoryHandel : IRequestHandler<SaveCategoryRequest, ResultDto<CategoryDto>>
     {
         private readonly ICategoryRepository categoryRepository;
         public SaveCategoryHandel(ICategoryRepository categoryRepository)
@@ -14,7 +15,7 @@ namespace App.Web.StructureCqrs.Handl.Command
         }
 
 
-        public async Task<uint> Handle(SaveCategoryRequest request, CancellationToken cancellationToken)
+        public async Task<ResultDto<CategoryDto>> Handle(SaveCategoryRequest request, CancellationToken cancellationToken)
         {
             Category category = new Category();
             category.ID= request.CategoryDto.ID;
@@ -30,8 +31,9 @@ namespace App.Web.StructureCqrs.Handl.Command
                 categoryRepository.Update(category);
                 categoryRepository.SaveChange();
             }
-            
-            return 1;
+
+            var result= ResultDto<CategoryDto>.ResultSuccess(request.CategoryDto);
+            return result;
         }
     }
 }

@@ -5,14 +5,14 @@ using MediatR;
 
 namespace App.Web.StructureCqrs.Handl.Query
 {
-    public class GetCategoryHandl : IRequestHandler<GetCategoryRequest, CategoryDto>
+    public class GetCategoryHandl : IRequestHandler<GetCategoryRequest, ResultDto<CategoryDto>>
     {
         private readonly ICategoryRepository categoryRepository;
         public GetCategoryHandl(ICategoryRepository categoryRepository)
         {
             this.categoryRepository = categoryRepository;
         }
-        public async Task<CategoryDto> Handle(GetCategoryRequest request, CancellationToken cancellationToken)
+        public async Task<ResultDto<CategoryDto>> Handle(GetCategoryRequest request, CancellationToken cancellationToken)
         {
             CategoryDto categoryDto = new CategoryDto();
             int CategoryId = request.CategoryId;
@@ -21,7 +21,8 @@ namespace App.Web.StructureCqrs.Handl.Query
             categoryDto.ID = FindCategorey.ID;
             categoryDto.Name = FindCategorey.Name;
 
-            return categoryDto;
+            var result = ResultDto<CategoryDto>.ResultSuccess(categoryDto);
+            return result;
         }
     }
 }
