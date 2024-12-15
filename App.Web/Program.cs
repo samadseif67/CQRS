@@ -1,7 +1,9 @@
-﻿using Entites.Attribute;
+﻿using App.Web;
+using Entites.Attribute;
 using Entites.Repository;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -25,9 +27,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 //********************************************************************
-builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
- 
 
+builder.Services.RegisterService();
+ 
 
 
 //**********************************************************************

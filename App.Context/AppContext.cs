@@ -12,10 +12,15 @@ namespace App.Context
 {
     public class AppContext:DbContext
     {
-        public AppContext(DbContextOptionsBuilder<AppContext> options)
+        public AppContext()
         {
                 
         }
+        public AppContext(DbContextOptions<AppContext> options):base(options)
+        {
+                
+        }
+       
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

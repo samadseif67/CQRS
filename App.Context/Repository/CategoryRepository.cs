@@ -1,5 +1,6 @@
 ﻿using App.Context;
 using Entites.Entites;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,13 +17,11 @@ namespace Entites.Repository
 
     public class CategoryRepository : GenericRepository<Category>, ICategoryRepository
     {
+        App.Context.AppContext appContext;
         public CategoryRepository(App.Context.AppContext appContext):base(appContext) 
         {
-                
-        }
-
-
-
+            this.appContext = appContext;
+        } 
     }
 
 }
