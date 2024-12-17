@@ -3,6 +3,7 @@ using Entites.Attribute;
 using Entites.Repository;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 
@@ -10,10 +11,12 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-
+ 
 //*************************************************************************
-builder.Services.AddControllers()
-    .AddFluentValidation(fv =>
+builder.Services.AddControllers(options =>
+{
+    options.OutputFormatters.RemoveType<HttpNoContentOutputFormatter>();
+}).AddFluentValidation(fv =>
     {
         
         fv.RegisterValidatorsFromAssembly(Assembly.Load("Entites"));//نام پروژه ای که تمام اعتبارسنجی ها فلونت ولیدیشن ست شده است
