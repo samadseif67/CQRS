@@ -34,11 +34,52 @@ namespace App.Context.Migrations
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("Name")
-                        .HasColumnType("text");
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
 
                     b.HasKey("ID");
 
                     b.ToTable("Categories");
+                });
+
+            modelBuilder.Entity("Entites.Entites.Product", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("ID"));
+
+                    b.Property<int>("CategoryID")
+                        .HasColumnType("integer");
+
+                    b.Property<DateTime>("CreateDateTime")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<int>("Price")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("CategoryID");
+
+                    b.ToTable("Products");
+                });
+
+            modelBuilder.Entity("Entites.Entites.Product", b =>
+                {
+                    b.HasOne("Entites.Entites.Category", "Category")
+                        .WithMany()
+                        .HasForeignKey("CategoryID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
                 });
 #pragma warning restore 612, 618
         }

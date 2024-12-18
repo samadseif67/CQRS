@@ -1,4 +1,5 @@
-﻿using Entites.Repository;
+﻿using App.Context.Repository;
+using Entites.Repository;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -15,6 +16,10 @@ namespace App.Web
             services.AddMediatR(Assembly.GetExecutingAssembly());
             services.AddAutoMapper(Assembly.GetExecutingAssembly());
             services.AddScoped<ICategoryRepository, CategoryRepository>();
+            services.AddScoped<IProductRepository, ProductRepository>();
+
+
+
             services.AddDbContext<App.Context.AppContext>(options => { options.UseNpgsql(configuration.GetConnectionString("DefaultConnection")); }) ;
             
             return services;    
