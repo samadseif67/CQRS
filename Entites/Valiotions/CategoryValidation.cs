@@ -14,16 +14,16 @@ namespace Entites.Valiotions
         {
             RuleFor(x => x.Name).NotEmpty().WithMessage("لطفا نام را وارد کنید");
             RuleFor(x => x.Name).NotNull().WithMessage("لطفا قالب نام را صحیح وارد کنید");
-            RuleFor(x => x.Name).Must((model, cancellation) =>
-            {
-                if( model.Name.Length!=10)
-                {
-                    return false;
-                }
-               
-                return true;
-            }).WithMessage("باید 10 کارکتر باشد");
- 
+            //RuleFor(x => x.Name).Must((model, cancellation) =>
+            //{
+            //    if (model.Name.Length != 10)
+            //    {
+            //        return false;
+            //    }
+
+            //    return true;
+            //}).WithMessage("باید 10 کارکتر باشد");
+
         }
         
 

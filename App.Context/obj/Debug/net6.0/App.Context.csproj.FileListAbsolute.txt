@@ -13,3 +13,5 @@ E:\project\AppCQRS\AppCQRS\App.Context\obj\Debug\net6.0\ref\App.Context.dll
 E:\project\AppCQRS\AppCQRS\App.Context\bin\Debug\net6.0\Entites.dll
 E:\project\AppCQRS\AppCQRS\App.Context\bin\Debug\net6.0\Entites.pdb
 E:\project\AppCQRS\AppCQRS\App.Context\obj\Debug\net6.0\App.Cont.ED7C136B.Up2Date
+E:\project\AppCQRS\AppCQRS\App.Context\bin\Debug\net6.0\App.Context.runtimeconfig.json
+E:\project\AppCQRS\AppCQRS\App.Context\obj\Debug\net6.0\App.Context.genruntimeconfig.cache

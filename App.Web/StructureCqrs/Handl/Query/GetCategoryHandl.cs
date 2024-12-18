@@ -7,8 +7,8 @@ namespace App.Web.StructureCqrs.Handl.Query
 {
     public class GetCategoryHandl : IRequestHandler<GetCategoryRequest, ResultDto<CategoryDto>>
     {
-        private readonly CategoryRepository categoryRepository;
-        public GetCategoryHandl(CategoryRepository categoryRepository)
+        private readonly ICategoryRepository categoryRepository;
+        public GetCategoryHandl(ICategoryRepository categoryRepository)
         {
             this.categoryRepository = categoryRepository;
         }

@@ -46,3 +46,12 @@ E:\project\AppCQRS\AppCQRS\App.Web\bin\Debug\net6.0\MediatR.Extensions.Microsoft
 E:\project\AppCQRS\AppCQRS\App.Web\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 E:\project\AppCQRS\AppCQRS\App.Web\bin\Debug\net6.0\App.Context.dll
 E:\project\AppCQRS\AppCQRS\App.Web\bin\Debug\net6.0\App.Context.pdb
+E:\project\AppCQRS\AppCQRS\App.Web\bin\Debug\net6.0\Humanizer.dll
+E:\project\AppCQRS\AppCQRS\App.Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\project\AppCQRS\AppCQRS\App.Web\bin\Debug\net6.0\AutoMapper.dll
+E:\project\AppCQRS\AppCQRS\App.Web\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\project\AppCQRS\AppCQRS\App.Web\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+E:\project\AppCQRS\AppCQRS\App.Web\bin\Debug\net6.0\System.Web.Http.dll
+E:\project\AppCQRS\AppCQRS\App.Web\bin\Debug\net6.0\System.Web.Http.WebHost.dll
+E:\project\AppCQRS\AppCQRS\App.Web\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\project\AppCQRS\AppCQRS\App.Web\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll

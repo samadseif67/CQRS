@@ -10,8 +10,8 @@ namespace App.Web.StructureCqrs.Handl.Command
 {
     public class SaveCategoryHandel : IRequestHandler<SaveCategoryRequest, ResultDto<CategoryDto>>
     {
-        private readonly CategoryRepository categoryRepository;
-        public SaveCategoryHandel(CategoryRepository categoryRepository)
+        private readonly ICategoryRepository categoryRepository;
+        public SaveCategoryHandel(ICategoryRepository categoryRepository)
         {
             this.categoryRepository = categoryRepository;
         }

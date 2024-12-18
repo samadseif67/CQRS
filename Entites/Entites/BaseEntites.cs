@@ -9,7 +9,7 @@ namespace Entites.Entites
     public class BaseEntites
     {
         public int ID { get; set; }
-        public DateTime CreateDateTime { get; set; }
+        public DateTime CreateDateTime { get; set; } = DateTime.SpecifyKind(DateTime.Now, DateTimeKind.Utc);
 
 
     }

@@ -12,15 +12,17 @@ namespace App.Context
 {
     public class AppContext:DbContext
     {
-        public AppContext()
+
+        //public AppContext()
+        //{
+
+        //}
+
+        public AppContext(DbContextOptions<AppContext> options) : base(options)
         {
-                
         }
-        public AppContext(DbContextOptions<AppContext> options):base(options)
-        {
-                
-        }
-       
+
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -31,5 +33,6 @@ namespace App.Context
 
 
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Product> Products { get; set; }
     }
 }
