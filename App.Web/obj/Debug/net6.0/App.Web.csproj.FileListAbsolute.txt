@@ -55,3 +55,6 @@ E:\project\AppCQRS\AppCQRS\App.Web\bin\Debug\net6.0\System.Web.Http.dll
 E:\project\AppCQRS\AppCQRS\App.Web\bin\Debug\net6.0\System.Web.Http.WebHost.dll
 E:\project\AppCQRS\AppCQRS\App.Web\bin\Debug\net6.0\Newtonsoft.Json.dll
 E:\project\AppCQRS\AppCQRS\App.Web\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+E:\project\AppCQRS\AppCQRS\App.Web\bin\Debug\net6.0\App.Web.xml
+E:\project\AppCQRS\AppCQRS\App.Web\obj\Debug\net6.0\App.Web.xml
+E:\project\AppCQRS\AppCQRS\App.Web\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll

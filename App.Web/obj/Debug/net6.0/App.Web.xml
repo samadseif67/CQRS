@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>App.Web</name>
+    </assembly>
+    <members>
+        <member name="T:App.Web.Controllers.ProductController">
+            <summary>
+            شسیتنشستینسشی
+            </summary>
+        </member>
+        <member name="M:App.Web.Controllers.ProductController.Save(Entites.ViewModel.ProductDto)">
+            <summary>
+            ذخیره محصولات
+            </summary>
+            <param name="productDto"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
